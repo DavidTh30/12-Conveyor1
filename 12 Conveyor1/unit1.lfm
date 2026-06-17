@@ -1,0 +1,87 @@
+object Form1: TForm1
+  Left = 424
+  Height = 426
+  Top = 92
+  Width = 589
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Tutorials 12: Basic flow using random part 1'
+  ClientHeight = 426
+  ClientWidth = 589
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poWorkAreaCenter
+  LCLVersion = '3.4.0.0'
+  object Button1: TButton
+    Left = 224
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = 'Start Loop'
+    TabOrder = 0
+    TabStop = False
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 296
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = '50 Frame'
+    TabOrder = 1
+    TabStop = False
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 368
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = '35 Frame'
+    TabOrder = 2
+    TabStop = False
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 512
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = 'Stop'
+    TabOrder = 3
+    TabStop = False
+    OnClick = Button4Click
+  end
+  object PaintBox2: TPaintBox
+    Left = 8
+    Height = 344
+    Top = 72
+    Width = 576
+  end
+  object Button5: TButton
+    Left = 440
+    Height = 40
+    Top = 24
+    Width = 72
+    Caption = '10 Frame'
+    TabOrder = 4
+    TabStop = False
+    OnClick = Button5Click
+  end
+  object Label3: TLabel
+    Left = 288
+    Height = 16
+    Top = 0
+    Width = 276
+    Caption = 'Tutorials 12: Basic flow using random part 1'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Arial Narrow'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
